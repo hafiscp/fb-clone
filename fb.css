@@ -1,0 +1,234 @@
+.header{
+    width: 100%;
+    height: 90px;
+    background: #3b5998;
+    float: left;
+}
+
+.logo{
+    width: 60%;
+    height: 90px;
+    background: #3b5998;
+    padding-top: 20px;
+    float: left;
+}
+
+.login_box{
+    width: 40%;
+    height: 90px;
+    background: #3b5998;
+    padding-right: 0em;
+    float: right;
+}
+
+.submit-button{
+    background: #597bc5;
+    border: 1px;
+    color: white;
+    cursor: pointer;
+}
+.submit-button:hover{
+    background: #99b6f3;
+}
+
+.login-controls{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+.pass{
+    font-size: 10px;
+    margin-top: 2px;
+    color: rgb(214, 214, 214);
+    text-decoration: unset;
+}
+.pic{
+    padding-top: 32px;
+}
+.quote{
+    padding-left: 119px;
+    color: #0e385f;
+    font-size:25px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 80px;
+    width: 590px;
+    word-spacing: -1px;
+}
+.left{
+    width: 60%;
+    height: 800px;
+    float: left;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(white,rgb(204, 204, 204));
+}
+
+.right{
+    width: 40%;
+    height: 800px;
+    float: left;
+    background: rgb(238, 238, 238);
+    background: linear-gradient(white,rgb(204, 204, 204));
+}
+
+.head1{
+    color: black;
+    margin-left: 20px;
+}
+.head2{
+    color: black;
+    margin-left: 20px;
+    margin-top:10px ;
+    font-weight: unset;
+    padding-top: 1px;
+}
+.create-acc{
+    padding: 5px;
+}
+
+.box1{
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px;
+    font-size: 20px;
+    border-style: double;
+    border-color:#bdc7d8 ;
+    padding: 8px 10px;
+}
+.box2{
+    margin-left: 4px;
+    margin-top: 1px;
+    height: 35px;
+    width: 427px;
+    border-radius: 5px;
+    border: 1px;
+    font-size: 20px;
+    border-style: double;
+    border-color:#bdc7d8 ;
+    padding: 8px 10px;
+}
+.box3{
+    margin-left: 4px;
+    margin-top: 7px;
+    height: 35px;
+    width: 427px;
+    border-radius: 5px;
+    border: 1px;
+    font-size: 20px;
+    border-style: double;
+    border-color:#bdc7d8 ;
+    padding: 8px 10px;
+}
+.dob{
+    color: #90949c;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 8px;
+}
+#day{
+    font-size: 13px;
+    height: 40px;
+    width: 70px;
+    padding: 3px;
+    margin-left: 8px;
+    margin-top: 2px;
+}
+#month{
+    font-size: 13px;
+    height: 40px;
+    width: 75x;
+    padding: 3px;
+}
+#year{
+    font-size: 13px;
+    height: 40px;
+    width: 70px;
+    padding: 3px;
+}
+.radio{
+    font-size: 20px;
+    padding: 0px 10px 0px 3px;
+    margin-left: 15px;
+    padding-top: 200px;
+}
+.male{
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 8px 0 3px;
+    line-height: 18px;
+}
+
+.paradiv{
+    margin-left: 8px;
+    color: #777;
+    font-size: 13px;
+    width: 316px;
+}
+.para{
+    color: #777;
+    font-size: 8px;
+    width: 316px;
+}
+.signup{
+    font-size: 19px;
+    background: linear-gradient(#79bc64, #578843);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 8px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: black;
+    border-radius: 8px;
+}
+.signup:hover{
+    background:#60af48 ;
+}
+
+.dob1{
+    padding-left: 8px;
+}
+.sign-button{
+    background-color: green;
+    width: 210px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+}
+.sign-button:hover{
+    background-color: rgb(49, 179, 49);
+}
+
+.footer{
+    width: 100%;
+    height: 150px;
+    float: left;
+    background: wheat;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.facebook{
+    color: white;
+    padding-top: 50px;
+    font-size: 40px;
+    padding-left: 120px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: unset;
+}
+
+.login{
+    float: left;
+    margin-top: 25px;
+}
+

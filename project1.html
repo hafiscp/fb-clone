@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - log in or sign up</title>
+    <link href="fb.css" type="text/css" rel="stylesheet" >
+    <!--<link href="fb.jpg" type="text/css" rel="stylesheet">-->
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="logo">
+               <a class="facebook" href="project1.html" >facebook</a>
+            </div>
+            <div class="login_box">
+                <form action="">
+                   <table class="login-controls">
+                       <tr>
+                           <td><label>Email or phone :</label></td>
+                           <td>Password :</td>
+                       </tr>
+                       <tr>
+                           <td><input name="email" type="text"></td>
+                           <td><input name="password" type="password"></td>
+                           <td><input  class="submit-button" type="submit" value="Log in"></td>
+                       </tr>
+                       <tr>
+                           <td></td>
+                           <td><a href="http://127.0.0.1:5500/HTML/test5.html" class="pass">Forgotten Password ?</a></td>
+                       </tr>
+                  </table>
+                </form>
+            </div>
+        </div>
+        <div class="content">
+            <div class="left">
+                <div class="quote">Facebook helps you connect and share with the<br>people in your life.</div>
+                <img class="pic" width="1080px" height="400px" src="pic112.jpg" alt="Sorry Server is Under Maintanance"  width="808px">
+            </div>
+            <div class="right">
+                <h1 class="head1">Create an Account</h1><br>
+                <h2 class="head2">Its quick & easy.</h2>
+                <form action="" id="signup-form">
+                    <table class="create-acc">
+                        <tr>
+                            <td><input name="fname" type="text" class="box1" placeholder="First Name"></td>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <td><input name="sname" type="text" class="box1" placeholder="Surname"></td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td><input placeholder="Email or Phone Number" type="email" class="box2" type="number"></td>
+                        </tr>
+                        <tr>
+                            <td><input name="password" type="password" class="box3" placeholder="New Password"></td>
+                        </tr>
+                    </table>
+                </form><br>
+                <label class="dob" for="">Date Of Birth</label>&nbsp;<br>
+                    <select id="day" name="day">
+                        <option value="">Day</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                    </select>
+                    <select id="month" name="month">
+                        <option value="">Month</option>
+                        <option value="01">JAN</option>
+                        <option value="02">FEB</option>
+                    </select>
+                    <select id="year" name="year">
+                        <option value="">Year</option>
+                        <option value="01">2000</option>
+                        <option value="02">2001</option>
+                    </select><br><br>
+                <label class="dob" for="">Gender</label><br>
+                    <input name="gender" type="radio" class="radio">
+                    <label class="male">Male</label>
+                    <input name="gender" type="radio" class="radio">
+                    <label class="male">Female</label>
+                    <input name="gender" type="radio" class="radio">
+                    <label class="male">Custom</label><br><br>
+
+                    <div class="paradiv" ><p class="para1">By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</p></div>
+                    <button type="submit" class="signup">Sign Up</button>
+
+            </div>
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+    <script src="project1.js"></script>
+</body>
+</html>
